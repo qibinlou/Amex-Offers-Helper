@@ -1,6 +1,6 @@
 function main() {
 	const WAIT_TIME_MS = 2000;
-	const offerButtons = document.querySelectorAll('button.btn.offer-cta');
+	const offerButtons = document.querySelectorAll('button.offer-cta[title="Add to Card"]');
 	for (let i = 0; i < offerButtons.length; ++i) {
 		setTimeout(() => {
 			try {
